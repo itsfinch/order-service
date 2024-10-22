@@ -1,0 +1,9 @@
+server:
+ port: 9004
+
+eureka:
+ client:
+  service-url:
+   default-zoe: http://localhost:9004/eureka
+  fetch-registry: false
+  register-with-eureka: false 
